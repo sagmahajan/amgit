@@ -1,0 +1,2 @@
+Select SUM(CONVERT(INT, Required_Hours))from Tickets where [Billing_Status]='Unpaid'
+select Config_Value from Config where Config_Key='hourly_rate_for_tickets'
